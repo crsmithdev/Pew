@@ -1,4 +1,4 @@
-EveApi> 
+Pew 
 ==============
 > EveApi is a simple, lightweight Python wrapper for the EVE Online API.
 
@@ -8,26 +8,26 @@ Install from https://github.com/crsmithdev/EveApi
 Usage
 =====
 
-* Import EveApi:
-``
-import EveApi
-``
+* Import Pew:
+```python
+import Pew
+```
 
 * Instantiate with your API id / API key:
-``
-eveapi = EveApi(12345, 'abcdefg')
-``
+```
+pew = Pew(12345, 'abcdefg')
+```
 
 * Call an API method:
-``
-characters = eveapi.acct_characters()
-``
+```
+characters = pew.acct_characters()
+```
 
 * Use the returned API object:
-``
-for c in characters:
-	print '[%s] %s' % (c.characterID, c.name)
-``
+```
+	for c in characters:
+	    print '[%s] %s' % (c.characterID, c.name)
+```
 
 Notes
 =====
