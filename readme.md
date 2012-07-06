@@ -16,7 +16,7 @@ Usage
 
 * Import Pew:
 ```python
-import Pew
+from pew import Pew
 ```
 
 * Instantiate with your API id / API key:
@@ -26,12 +26,12 @@ pew = Pew(12345, 'abcdefg')
 
 * Call an API method:
 ```python
-characters = pew.acct_characters()
+result = pew.acct_characters()
 ```
 
 * Use the returned API object:
 ```python
-	for c in characters:
+	for c in result.characters:
 	    print '[%s] %s' % (c.characterID, c.name)
 ```
 
