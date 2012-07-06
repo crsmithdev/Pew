@@ -5,6 +5,12 @@ Pew
 ----------------------------------------------------
 Install from https://github.com/crsmithdev/Pew
 
+Goals
+=====
+
+* Be simple to use and extend
+* Provide easy object access to API results
+
 Usage
 =====
 
